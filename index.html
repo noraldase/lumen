@@ -101,8 +101,10 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-between;
+            justify-content: center;
             height: calc(100vh - 2rem - 50px); /* Full height minus header and padding */
+            min-height: 150vh; /* Tambahkan tinggi minimum agar halaman bisa di-scroll */
+            padding-bottom: 150px; /* Tambahkan ruang ekstra untuk footer agar tidak menutupi konten */
         }
 
         .logo {
